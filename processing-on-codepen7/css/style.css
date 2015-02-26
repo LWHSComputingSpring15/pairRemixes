@@ -1,0 +1,17 @@
+body{
+    background: url( http://www.hdwallpapersimages.com/wp-content/uploads/2014/01/Winter-Tiger-Wild-Cat-Images.jpg);
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #00000;
+}
+h1 {
+    font-size: 100px;
+    font-family: wingdings, sans-serif;
+    text-align: center;
+    color: lightblue;
+    font-weight: normal;
+    margin: 20px 0;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: #132;
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+h1 {
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: Blue;
+    font-weight: normal;
+    margin: 20px 0;
+}

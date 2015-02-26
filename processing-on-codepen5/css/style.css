@@ -1,0 +1,17 @@
+body{
+    background: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-26.jpg)
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+h1 {
+    font-size: 100px;
+    font-family: wingdings, serif;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    margin: 20px 0;
+}

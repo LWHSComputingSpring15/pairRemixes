@@ -1,0 +1,19 @@
+body{
+  background-color : #ab3748;
+
+    text-align: center;
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+h1 {
+    font-size: 100px;
+    font-family: copperplate, sans-serif;
+    text-align: center;
+    color: purple;
+    font-weight: normal;
+    margin: 20px 0;
+}

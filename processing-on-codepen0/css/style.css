@@ -1,0 +1,19 @@
+body{
+  
+    background: url(https://s3.amazonaws.com/classconnection/233/flashcards/6351233/jpg/1920px-van_gogh_-_starry_night_-_google_art_project-14A2114D5510FADEE60.jpg)
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+h1 {
+    font-size: 100px;
+    font-family: copperplate, sans-serif;
+    text-align: center;
+    color: yellow;
+    font-weight: normal;
+    margin: 20px 0;
+  text-shadow:   3px 3px 0 #000;
+}

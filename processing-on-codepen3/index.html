@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Processing on CodePen</title>
+
+    <style>
+body{
+    background-color: #FF00FF	;
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+h1 {
+    font-size: 100px;
+    font-family: "comic sans ms";
+    text-align: center;
+    color: #FF0000;
+    font-weight: normal;
+    margin: 20px 0;
+}
+h2 {
+  font-size: 69px;
+  font-family: Papyrus, fantasy;
+  text-align: right;
+  color: #F00000;
+  font-weight: bold;
+
+}
+marquee {
+  font-size: 100px;
+  font-family: CurlzMt;
+  color: #2B60DE;
+}
+</style>
+
+    <script src="js/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <html>
+  <head>
+
+  </head>
+  <body>
+
+    <h1>L33t Z0n3</h1>
+     <img src="http://www.clipartlord.com/wp-content/uploads/2013/05/hotdog2.png" style="width:600px;height:69px" align= "middle">
+    <h2>whatever</h2>
+ <img src="http://www.clipartlord.com/wp-content/uploads/2013/05/hotdog2.png" style="width:99px;height:690px" align = "right">
+    <img src="http://i452.photobucket.com/albums/qq246/Sirtomas5/Britannia/Spinzaku.gif"  align = "middle">
+    <div id="window">
+    <marquee behavior="scroll" direction="left">U just got tr0lled</marquee>
+
+      <script type="application/processing">
+        int flash = 0;
+        void setup()  
+        {  
+          size(800, 500);  
+          background(0,255,0);
+        }  
+
+        void draw()   
+        {  
+                fill(mouseX,mouseY,200);
+
+        beginShape();
+        vertex(mouseX+10,mouseY+29);
+        vertex(mouseX + sin(mouseX),mouseY + sin(mouseY));
+        vertex(mouseX + 109, mouseY +90);
+        vertex(mouseY, mouseX);
+        endShape(CLOSE);
+        if (flash>0) {
+        background(random(255), random(255), random(255));
+        flash--;
+        }
+        }
+        void mousePressed(){
+        flash = 120;
+        }
+
+      </script>
+
+      <canvas width="800px" height="500px"></canvas>
+    </div> 
+  </body>
+</html>
+
+  <script src='http://cloud.github.com/downloads/processing-js/processing-js/processing-1.4.1.min.js'></script>
+
+</body>
+
+</html>

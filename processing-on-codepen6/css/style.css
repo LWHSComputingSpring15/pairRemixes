@@ -1,0 +1,16 @@
+body{
+    background-color: #fff;
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 100px;
+    font-family: Cambria, sans-serif;
+    text-align: center;
+    color: grey;
+    font-weight: normal;
+    margin: 20px 0;
+}

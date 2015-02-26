@@ -1,0 +1,30 @@
+body{
+    background-color: #FF00FF	;
+}
+#window {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+h1 {
+    font-size: 100px;
+    font-family: "comic sans ms";
+    text-align: center;
+    color: #FF0000;
+    font-weight: normal;
+    margin: 20px 0;
+}
+h2 {
+  font-size: 69px;
+  font-family: Papyrus, fantasy;
+  text-align: right;
+  color: #F00000;
+  font-weight: bold;
+  
+}
+marquee {
+  font-size: 100px;
+  font-family: CurlzMt;
+  color: #2B60DE;
+}
